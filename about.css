@@ -1,0 +1,78 @@
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+.body {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  padding-right: 28%;
+  padding-left: 10%;
+  font-family: sans-serif;
+  background-color: white;
+}
+.about {
+  position: absolute;
+  padding-top: 1%;
+  top: 1%;
+  padding-left: 70%;
+  font-size: 20px;
+  z-index: 200;
+}
+.download {
+  position: absolute;
+  padding-top: 1%;
+  top: 1%;
+  padding-left: 78%;
+  font-size: 20px;
+}
+/*.object {
+    position: fixed;
+    top: 1%;
+    right: 1%;
+  }
+  .object:hover {
+    transform: scale(1.1);
+    transition: 1s;
+  }*/
+.upper {
+  position: fixed;
+  width: 100%;
+  background-color: rgb(236, 236, 236);
+  height: 30%;
+  z-index: 100;
+  text-align: center;
+  padding-top: 25%;
+  overflow: hidden;
+  background-size: cover;
+  text-align: center;
+}
+.uppertext {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-size: 400%;
+  animation: appear 1.2s;
+  z-index: 200;
+}
+.description {
+    position: fixed;
+    text-align: center;
+    top: 60%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 220%;
+    z-index: 300;
+}
+@keyframes appear {
+  from {
+    top: -20%;
+  }
+  to {
+    top: 60%;
+  }
+}
