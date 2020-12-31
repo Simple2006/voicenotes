@@ -58,6 +58,13 @@ a:link {
   animation: appear 1.2s;
   z-index: 200;
 }
+.upperside {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    font-size: 150%;
+    z-index: 200;
+  }
 .description {
     position: fixed;
     text-align: center;
@@ -80,6 +87,8 @@ a:link {
     .description {
         top: 60%;
         font-size: 40px;
+        margin-right: 5%;
+        margin-top: 17%;
     }
     .download {
         right: 8%;
