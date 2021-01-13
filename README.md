@@ -1,2 +1,0 @@
-# voicenote.github.io
-voicenote
